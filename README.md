@@ -38,9 +38,33 @@ RAG is an advanced AI technique that combines **retrieval-based search** with **
 
 ### 4️⃣ **LangChain**
 - **LangChain** is a **framework** for building LLM-based applications.
-- It simplifies **document retrieval, embedding creation, and pipeline integration**.
+-  It simplifies **document retrieval, embedding creation, and pipeline integration**.
 
 ---
+### 📊 **How it Works**
+1️⃣ PDF Parsing: Extracts text from PDF files using pdfplumber.
+
+2️⃣ Vector Embeddings: Converts text into high-dimensional vectors using Hugging Face's sentence-transformers.
+
+3️⃣ FAISS Indexing: Stores vectors in FAISS for fast nearest-neighbor search.
+
+4️⃣ Query Execution: User inputs a question, and FAISS retrieves the most relevant document chunks.
+
+5️⃣ DeepSeek & Groq API: The retrieved chunks are sent to DeepSeek, which generates a precise, contextualized answer.
+
+
+---
+
+### 🎯 **Future Improvements**
+🚀 **Multi-PDF Support** – Query across multiple PDFs at once
+
+🚀 **Hybrid Search** – Combine semantic search with keyword-based search for better accuracy
+
+🚀 **Fine-Tuning LLM** – Train DeepSeek on domain-specific datasets
+
+🚀 **Deploy on Cloud** – Host on AWS, GCP, or Azure for scalability
+
+
 
 
 
