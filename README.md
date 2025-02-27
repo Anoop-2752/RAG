@@ -42,15 +42,15 @@ RAG is an advanced AI technique that combines **retrieval-based search** with **
 
 ---
 ### 📊 **How it Works**
-1️⃣ PDF Parsing: Extracts text from PDF files using pdfplumber.
+1️⃣ **PDF Parsing**: Extracts text from PDF files using pdfplumber.
 
-2️⃣ Vector Embeddings: Converts text into high-dimensional vectors using Hugging Face's sentence-transformers.
+2️⃣ **Vector Embeddings**: Converts text into high-dimensional vectors using Hugging Face's sentence-transformers.
 
-3️⃣ FAISS Indexing: Stores vectors in FAISS for fast nearest-neighbor search.
+3️⃣ **FAISS Indexing**: Stores vectors in FAISS for fast nearest-neighbor search.
 
-4️⃣ Query Execution: User inputs a question, and FAISS retrieves the most relevant document chunks.
+4️⃣ **Query Execution**: User inputs a question, and FAISS retrieves the most relevant document chunks.
 
-5️⃣ DeepSeek & Groq API: The retrieved chunks are sent to DeepSeek, which generates a precise, contextualized answer.
+5️⃣ **DeepSeek & Groq API**: The retrieved chunks are sent to DeepSeek, which generates a precise, contextualized answer.
 
 
 ---
