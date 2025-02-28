@@ -1,4 +1,4 @@
-# 📚 RAG-Based PDF QA System.
+# 📚 RAG-Based PDF QA System
 
 ![RAG](https://img.shields.io/badge/RAG-Retrieval--Augmented--Generation-blue)  
 A **Retrieval-Augmented Generation (RAG) system** that allows users to query PDF documents using **DeepSeek**, **Groq API**, and **FAISS** for efficient vector search. This system enhances traditional language models by incorporating document retrieval to provide more accurate, context-aware answers.
